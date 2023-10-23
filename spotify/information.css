@@ -1,0 +1,65 @@
+.main-information img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 8px yellow;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.main-information__singer {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-information__genre {
+    font-size: 10px;
+    color: var(--grey);
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-information__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.main-information__shuffle {
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgb(138, 145, 148);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 1px;
+}
+
+.main-information__heart-count {
+    width: 70px;
+    height: 25px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgb(138, 145, 148);
+    color: var(--grey);
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-information__heart-count i {
+    color: black;
+    margin-right: 5px;
+}
