@@ -1,0 +1,70 @@
+.song-lists {
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.song-list {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.song-list:nth-child(2) {
+    box-shadow: 0px 1px 7px 0.2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.song-list__album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+}
+
+
+.song-list__album img {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.song-list__album i {
+    position: absolute;
+    color: whitesmoke; 
+}
+
+.song-list__text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.song-list__singer {
+    color: var(--grey);
+    font-size:4px;
+    margin-bottom: 5px;
+}
+
+.song-list__title {
+    font-size: 11px;
+}
+
+.song-list__column {
+    margin-right: 7px;
+}
+
+.song-list__column i {
+    font-size: 10px;
+    color: var(--grey);
+} 
