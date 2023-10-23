@@ -1,0 +1,41 @@
+html {
+    background-color: tomato;
+}
+.yellow {
+    background-color: rgb(232, 232, 18);
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.yellow__first {
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    margin: 3px 25px;
+}
+
+.yellow__second {
+    background-color: green;
+    height: 10px;
+    width: 40px;
+    border: 1px dotted white;
+    margin: 3px 10px;
+}
+
+.yellow__third {
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    margin: 3px 25px;
+}
