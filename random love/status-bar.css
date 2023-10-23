@@ -1,0 +1,14 @@
+.status-bar {
+    display: flex;
+    align-items: center;
+}
+
+.status-bar__column:first-child {
+    padding: 70px 0;
+    margin-right: 90px;
+}
+
+.status-bar__column:last-child  {
+    font-weight: 600;
+    font-size: 30px;
+}
