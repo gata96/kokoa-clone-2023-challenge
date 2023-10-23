@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import "information.css";
+@import "nav.css";
+@import "song-list.css";
+@import "status-bar.css";
+@import "reset.css";
+@import "variables.css";
+@import "main-album.css";
+@import "play-bar.css";
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(221, 233, 243);
+    padding: 50px;
+}
+
+.whole-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-screen {
+    width: 180px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 10px var(--grey);
+    padding: 10px;
+}
