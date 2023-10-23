@@ -1,0 +1,60 @@
+.book-day__header {
+    font-size: 20px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.book-day__main {
+    display: flex;
+
+}
+
+.book-day__picture img {
+    height: 160px;
+    width: 108px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.book-day__informations {
+    margin: 10px;
+}
+
+.book-day__title {
+    font-weight: 600;
+}
+.book-day__writer{
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.book-day__stars i{
+    background-color: var(--yellow);
+}
+
+.book-day__classification{
+    display: flex;
+}
+
+.book-day__journey{
+    background-color: var(--grey);
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book-day__biography{
+    background-color: var(--grey);
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.book-day__icons {
+    display: flex;
+    justify-content: space-between;
+}
