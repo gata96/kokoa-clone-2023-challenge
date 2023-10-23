@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    background-color: rgb(240, 237, 232);
+}
+
+.tomato-box {
+    background-color: white;
+    width: 160px;
+    height: 290px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.tomato-box div:first-child {
+    width: 160px;
+    height: 15px;
+    background-color: tomato;
+}
+
+.tomato-box div:nth-child(2) {
+    width: 160px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+}
+
+.tomato-box div:nth-child(2) span {
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+
+.tomato-box div:nth-child(2) span:first-child {
+    top: 20px;
+}
+
+.tomato-box div:nth-child(2) span:last-child {
+    top: 30px;
+}
+
+.tomato-box div:last-child {
+    width: 160px;
+    height: 275px;
+    background-color: tomato;
+}
+
+.teal-box {
+    background-color: white;
+    width: 160px;
+    height: 290px;
+    padding: 5px;
+}
+
+.teal-box div:first-child {
+    width: 160px;
+    height: 15px;
+    background-color: teal;
+}
+
+.teal-box div:nth-child(2) {
+    width: 160px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+}
+
+.teal-box div:nth-child(2) span {
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+
+.teal-box div:nth-child(2) span:first-child {
+    top: 20px;
+}
+
+.teal-box div:nth-child(2) span:last-child {
+    top: 30px;
+}
+
+.teal-box div:last-child {
+    width: 160px;
+    height: 275px;
+    background-color: teal;
+}
+
+.burlywood-box {
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 160px;
+    height: 290px;
+    padding: 5px;
+}
+
+.burlywood-box div:first-child {
+    width: 160px;
+    height: 15px;
+    background-color: burlywood;
+}
+
+.burlywood-box div:nth-child(2) {
+    width: 160px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+}
+
+.burlywood-box div:nth-child(2) span {
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+
+.burlywood-box div:nth-child(2) span:first-child {
+    top: 20px;
+}
+
+.burlywood-box div:nth-child(2) span:last-child {
+    top: 30px;
+}
+
+.burlywood-box div:last-child {
+    width: 160px;
+    height: 275px;
+    background-color: burlywood;
+}
+
+.thistle-box {
+    background-color: white;
+    width: 160px;
+    height: 290px;
+    padding: 5px;
+}
+
+.thistle-box div:first-child {
+    width: 160px;
+    height: 15px;
+    background-color: thistle;
+}
+
+.thistle-box div:nth-child(2) {
+    width: 160px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+}
+
+.thistle-box div:nth-child(2) span {
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+
+.thistle-box div:nth-child(2) span:first-child {
+    top: 20px;
+}
+
+.thistle-box div:nth-child(2) span:last-child {
+    top: 30px;
+}
+
+.thistle-box div:last-child {
+    width: 160px;
+    height: 275px;
+    background-color: thistle;
+}
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.tomato-teal {
+    display: flex;
+    justify-content: center;
+}
+
+.burlywood-thistle {
+    display: flex;
+    justify-content: center;
+
+}
