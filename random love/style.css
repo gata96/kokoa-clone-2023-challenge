@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@1,700&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "icon-buttons.css";
+@import "main-header.css";
+@import "screen-header.css";
+
+body {
+    border: 5px solid #01c7ad;
+    padding: 0 30px;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 600;
+}
+
+
