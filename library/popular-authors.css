@@ -1,0 +1,20 @@
+.popular-authors__author {
+    display: flex;
+    align-items: center;
+}
+.popular-authors__picture img {
+    height: 170px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.popular-authors__details {
+    margin-left: 20px;
+}
+
+.main-screen__explanation {
+    margin-right: 20px;
+    font-size: xx-small;
+}
+
