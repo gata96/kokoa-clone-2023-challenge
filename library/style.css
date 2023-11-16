@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import "reset.css";
+@import "variables.css";
+@import "screen-header.css";
+@import "search.css";
+@import "book-day.css";
+@import "top-adventures.css";
+@import "popular-authors.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.main-screen {
+    margin-left: 20px;
+}
+
