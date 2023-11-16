@@ -1,0 +1,33 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px 60px 15px;
+    background-color: #FFCE33;
+}
+
+.search-books {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 70px;
+    width: 75%;
+    border-radius: 30px;  
+    background-color: white;
+    box-shadow: 0px 2px 10px 0.5px rgba(0, 1, 0, 0.2);
+    color: var(--grey);
+    font-size: medium;
+    margin: -35px 15px 30px 15px;
+    padding: 0 30px;
+}
+
+.search-books input {
+    border-style: none;
+}
+
+.search-books input::placeholder {
+    color: var(--grey);
+    font-size: medium;
+}
+
+
