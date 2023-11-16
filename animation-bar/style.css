@@ -6,7 +6,8 @@ body {
     display: flex;
     margin: 200px auto;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    animation: rotateDot 1s linear infinite; 
 }
 
 .group-dot__column {
@@ -17,14 +18,22 @@ body {
     margin-right: 25px;
 }
 
+@keyframes rotateDot {
+    from {
+        transform: none;
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 
 
 .group-stick {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 200px auto; 
-
+    margin: 200px auto;
 }
 
 .group-stick__column {
@@ -32,4 +41,15 @@ body {
     width: 10px;
     height: 40px;
     margin-right: 5px;
+    animation: rotateStick 1s linear infinite;
 }
+
+@keyframes rotateStick {
+    from {
+        transform: none;
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
